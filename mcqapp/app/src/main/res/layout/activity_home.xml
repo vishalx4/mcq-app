@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+
+    <FrameLayout
+        android:background="#212121"
+        android:id="@+id/time_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        />
+
+    <FrameLayout
+        android:background="#212121"
+        android:id="@+id/replaceable_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8.5"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">FinalAssignment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="rule1">
+        1) Time limit for the test is 5 minutes.
+    </string>
+    <string name="rule2">
+        2) An exam is a race against time, try to be quick, but      careful.
+    </string>
+
+    <string name="rule3">
+        3) There are total 10 Question in the test.
+    </string>
+    <string name="rule4">
+        4) you can solve any number of question.
+    </string>
+    <string name="rule5">
+        5) For correct answer and you will get 1 marks.
+    </string>
+    <string name="rule6">
+        6) No negative marking.
+    </string>
+    <string name="rule7">
+        7) For NotAttempted Question you will get 0 marks.
+    </string>
+
+    <string name="load_question_failed">
+        failed to get questions technical error
+    </string>
+    <string name="testsubmission">Test Submitted Successfully</string>
+    <string name="rulesfortest">Rules for test</string>
+
+
+</resources>

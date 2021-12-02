@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:elevation="2dp"
+    android:clickable="true"
+    app:cardCornerRadius="20dp"
+    android:layout_margin="20dp"
+    app:cardBackgroundColor="#212121"
+  >
+
+    <LinearLayout
+        android:background="@drawable/gradient"
+        android:layout_width="400dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/question"
+            android:padding="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="question :"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="#000"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/answered_unanswered"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/loading"
+                android:layout_margin="10dp"
+                android:layout_gravity="end"
+                />
+
+            <ImageView
+                android:id="@+id/bookmark_image"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/bookmarks"
+                android:visibility="gone"
+                />
+
+        </FrameLayout>
+    </LinearLayout>
+
+
+
+</com.google.android.material.card.MaterialCardView>
